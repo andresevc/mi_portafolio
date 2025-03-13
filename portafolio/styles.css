@@ -1,0 +1,102 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5dc; /* Fondo color crema */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centrar todos los elementos en el body */
+header, .about, .projects, .contact {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Asegura que el texto dentro de estos contenedores esté centrado */
+}
+
+/* Header */
+header {
+    background-color: #e0d8c0; /* Beige más oscuro */
+    color: #333; /* Texto oscuro para contraste */
+    padding: 20px;
+    border-radius: 10px;
+}
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block; /* Asegura que la imagen esté centrada */
+    margin: 0 auto;
+}
+
+/* Centrar títulos */
+h1, h2, h3, h4 {
+    text-align: center; /* Centra todos los títulos */
+    margin-bottom: 10px; /* Espaciado inferior para los títulos */
+}
+
+/* Sección de Proyectos */
+.projects .project {
+    background-color: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Asegura que el texto dentro de los proyectos esté centrado */
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    display: block; /* Asegura que la imagen esté centrada */
+    margin: 0 auto;
+}
+
+/* Botones */
+.project .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.project .button:hover {
+    background-color: #45a049;
+}
+
+/* Contacto */
+.contact {
+    background-color: #333;
+    color: white;
+}
+
+.contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
